@@ -1,4 +1,4 @@
-# Shadow-Markers
+# Shadow-Trails
 A collection of Markers and Trails made by Blackshadow_1007.
 
 > [!NOTE]
