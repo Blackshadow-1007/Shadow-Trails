@@ -9,7 +9,7 @@ A collection of Markers and Trails made by Blackshadow_1007.
 - Bava Nisos Event Farm Route
 - Tomb of Primeval Kings Altpark
 - Mistburned Barrens Mursaat Cache Route
-- Modified Major Kodan Cache Routed from Lady Elyssa's Pack
+- Modified Major Kodan Cache Routes for Lowland Shore and Janthir Syntri from Lady Elyssa's Pack
 
 ### Planned Trails:
 - HoT Mastery Points
