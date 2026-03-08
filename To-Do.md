@@ -1,7 +1,7 @@
 # To-Do List
 
 ### Top Priority
-Kodan Cache Routes:</ins>  
+Kodan Cache Routes:  
 -Copy Waypoint to clipboard markers at end of trails  
 -Trail numbers  
 -add Missing cache markers  
