@@ -1,0 +1,97 @@
+
+<!--Comment-->
+
+<OverlayData>
+
+	<MarkerCategory name="sp" displayName="Shadow Pack">
+		
+		<MarkerCategory name="bvnf" displayName="Bava Nisos Farm" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="bvnm" displayName="Event Markers" iconFile="Data/ShadowData/Markers/ExampleMarker.png"/>
+			<MarkerCategory name="bvnt" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail.png"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="altpark" displayName="Alt Park" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="altm" displayName="Chests" iconFile="Data/ShadowData/Markers/chest2.png"/>
+			<MarkerCategory name="altt" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail.png"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="mscbar" displayName="Mistbarren Mursaat Caches" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="mscbart" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail.png"/>
+			<MarkerCategory name="mscbarm" displayName="Caches" iconFile="Data/ShadowData/Markers/chest2.png"/>
+			<MarkerCategory name="mscbarmirror" displayName="Mirrors" iconFile="Data/ShadowData/Markers/trail_portal.png"/>
+			<MarkerCategory name="mscbar1" displayName="Trail Number 1" iconFile="Data\ShadowData\Markers\number1.png"/>
+			<MarkerCategory name="mscbar2" displayName="Trail Number 2" iconFile="Data\ShadowData\Markers\number2.png"/>
+			<MarkerCategory name="mscbarwp" displayName="Back to Waypoint Sign" triggerRange="8" autoTrigger="1" copy="[&BFAPAAA=]" copy-message="Alliance Staging Ground Waypoint copied!" iconFile="Data\ShadowData\Markers\map_waypoint.png"/>
+			<MarkerCategory name="mscbarfinish" displayName="Finish Sign" iconFile="Data/ShadowData/Markers/trail_finish.png"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="jwmjcach" displayName="Major Kodan Caches" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="lowlmjcacht" displayName="Lowland Trail" texture="Data/ShadowData/Markers/aMyTrail.png"/>
+			<MarkerCategory name="syntmjcacht" displayName="Syntri Trail" texture="Data/ShadowData/Markers/aMyTrail.png"/>
+		</MarkerCategory>
+		
+	</MarkerCategory>
+	
+	<POIs>
+		<!--
+			Bava Nisos Event Farm Route
+		-->
+		<POI MapID="1574" xpos="201.8993" ypos="152.6593" zpos="-178.4387" GUID="HkicB4Bo4U2H9bC+Xy4CpQ==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="169.9239" ypos="163.1986" zpos="136.5948" GUID="b/H/ehohjEeEnxXR1bdblw==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="293.8547" ypos="237.2843" zpos="378.6657" GUID="DA23pE5w90aOOjMLwYzzZA==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="191.8867" ypos="238.8747" zpos="337.8133" GUID="QTRpixDqC0ii3xHShZchNg==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="25.3276" ypos="142.9066" zpos="330.3569" GUID="TJA9fCZ920mYKMBr00b3KA==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="-98.53162" ypos="163.573" zpos="250.8213" GUID="JmuHDdTgcUSoRJ2mt2JBxw==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="-187.4996" ypos="61.61856" zpos="-301.0061" GUID="et5CCQCuCUCRqJEMZ50RSA==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="-16.3082" ypos="61.61024" zpos="-414.1599" GUID="Ccl3GqeyUUKI2GRq7pVCUQ==" type="sp.bvnf.bvnm" />
+		<POI MapID="1574" xpos="345.5695" ypos="108.6491" zpos="-495.5862" GUID="sv8BhAJuzkSxCgUqFYfbFw==" type="sp.bvnf.bvnm" />
+		<Trail type="sp.bvnf.bvnt" trailData="Data/ShadowData/Trails/BavaNisosFarm.trl"/>
+		<!--
+			Tomb of Primeval Kings Alt Park Route
+		-->
+		<POI MapID="1211" xpos="1264.907" ypos="230.9359" zpos="478.0218" GUID="97IiLi97qUCh4AT+7hQGWQ==" type="sp.altpark.altm" />
+		<POI MapID="1211" xpos="1244.806" ypos="184.1407" zpos="478.5884" GUID="ic5ynOhpeUySzqjuJcbSdQ==" type="sp.altpark.altm" />
+		<POI MapID="1211" xpos="1286.611" ypos="181.3848" zpos="439.9493" GUID="oT4JLqbqjEmevD4oAC/g5w==" type="sp.altpark.altm" />
+		<POI MapID="1211" xpos="1319.791" ypos="184.0274" zpos="370.6377" GUID="Ulx9JRgwNUeztUOxjm/rNA==" type="sp.altpark.altm" />
+		<POI MapID="1211" xpos="1342.052" ypos="160.3974" zpos="476.2965" GUID="T1t9XTBKo06Kyv53DTYHVw==" type="sp.altpark.altm" />
+		<POI MapID="1211" xpos="1431.591" ypos="162.114" zpos="511.8717" GUID="79K8YMIus02GqC6yNASAPw==" type="sp.altpark.altm" />
+		<POI MapID="1211" xpos="1431.562" ypos="164.5669" zpos="570.0445" GUID="WmbZi0Fg/EikuKatNPmqjg==" type="sp.altpark.altm" />
+		<Trail type="sp.altpark.altt" trailData="Data/ShadowData/Trails/AltPark_PrimevalKings.trl"/>
+		<!-- 
+			Mistburned Barrens Mursaat Cache Farm
+		-->
+		<POI MapID="1575" xpos="-1023.981" ypos="126.4099" zpos="0.48291" GUID="a6lrseOy6Uadn2G4unWHYQ==" type="sp.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-1004.328" ypos="46.26149" zpos="-356.1538" GUID="n5Y/FOR6C0CCkhc4KYQZpA==" type="sp.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-619.6711" ypos="179.9551" zpos="202.3195" GUID="oqo6T3bqJU6WXDUoaYjW8w==" type="sp.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-471.1672" ypos="89.41432" zpos="295.8081" GUID="PvSTIA5b0keVvN3EbLZLjg==" type="sp.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-758.7634" ypos="126.4171" zpos="-7.250301" GUID="r3Kuioh/20WiLy8y2PeB8Q==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-760.9247" ypos="190.5145" zpos="-5.094451" GUID="Kwo9rSBigEehfmxqGr8mdg==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-889.2431" ypos="126.3836" zpos="-116.3623" GUID="zYQtwCqvaku6j4SadS/6Jg==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-951.7527" ypos="79.80846" zpos="-593.7037" GUID="Mx6FerBcZEGJNfZLw8Agsg==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-189.4252" ypos="265.039" zpos="-447.8873" GUID="pjbHBEs2rUiDzguncL6FvQ==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-210.3383" ypos="129.529" zpos="299.5574" GUID="Su43bW0W10i4VVgFTGL6+w==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-444.217" ypos="189.3964" zpos="350.1719" GUID="9COJ5FUrbkSKMkIoG7uKiw==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-537.5173" ypos="272.9452" zpos="-50.353" GUID="+hLyIpaNvkajPZO3dW2hFg==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-745.9445" ypos="224.0696" zpos="79.50372" GUID="Lh+mjeFK3kmTqwHLCCnNwg==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-844.7761" ypos="93.00911" zpos="-441.0854" GUID="jGSd6WnOjUmzHbAJxiewnw==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-1012.991" ypos="79.8717" zpos="-617.2629" GUID="HYIlJy8jd0KcQ4iPJsODKw==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-656.3797" ypos="175.6967" zpos="-319.6695" GUID="4W2DhwyZQUyoZlYII9F5mw==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-762.3097" ypos="174.6503" zpos="-79.2075" GUID="w2DFVmPfskSm0DdenzHOWw==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-757.7021" ypos="190.4682" zpos="112.5672" GUID="5VmudE7rx0OfDEFmsl3jsg==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-322.4998" ypos="235.2153" zpos="213.388" GUID="GEuwTbr2PkmUefXpUzHw8w==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-153.1427" ypos="198.4496" zpos="533.568" GUID="CRAi6+9UdEKZAWQMGDFRCw==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-562.1708" ypos="209.9375" zpos="-496.989" GUID="Gtjfdb4QJUKizTV5pHT45A==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-389.6748" ypos="178.7953" zpos="-437.7311" GUID="rcB+cDVTAU6W+GxdfC199g==" type="sp.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-152.9505" ypos="201.5278" zpos="533.6035" GUID="seEBjMNhlkS19oR8trQy3g==" type="sp.mscbar.mscbarwp" />
+		<POI MapID="1575" xpos="-1014.835" ypos="93.88617" zpos="36.59815" GUID="UsPTdw1ObUmDhjkW4nXaYg==" type="sp.mscbar.mscbar1" />
+		<POI MapID="1575" xpos="-1021.744" ypos="93.88617" zpos="35.89517" GUID="A7RFfPX7NU6Zfv7QsUT3nA==" type="sp.mscbar.mscbar2" />
+		<POI MapID="1575" xpos="-189.2569" ypos="267.8488" zpos="-447.923" GUID="L19N6Zqh0Uy8rNYjLBJ26w==" type="sp.mscbar.mscbarfinish" />
+		<Trail type="sp.mscbar.mscbart" trailData="Data\ShadowData\Trails\MistbarrenMursaatCacheRoute.trl"/>
+		<!-- 
+			Major Kodan Cache routes slightly changed from lady Elyssa's Pack to include missed cache spots
+		-->
+		<Trail type="sp.jwmjcach.lowlmjcacht" trailData="Data\ShadowData\Trails\ModdedElyssaLowlandMajorKodanCache1+2+3+4+5.trl"/>
+		<Trail type="sp.jwmjcach.syntmjcacht" trailData="Data\ShadowData\Trails\ModdedElyssaSyntriMajorKodanCache1+2+3+4.trl"/>
+	</POIs>
+
+</OverlayData>
