@@ -1,22 +1,21 @@
 # Shadow-Trails
 A collection of Markers and Trails made by Blackshadow_1007.
 
-> [!NOTE]
-> The pack is still unreleased. I will release it at a later date, when I think it is ready.
-
-### Current Trails:
-
-- Bava Nisos Event Farm Route
+### Currently contains trails for:
+- Bava Nisos Event Farm
 - Tomb of Primeval Kings Altpark
-- Mistburned Barrens Mursaat Cache Route
-- Modified Major Kodan Cache Routes for Lowland Shore and Janthir Syntri from Lady Elyssa's Pack
+- Mistburned Barrens Mursaat Caches
+- Major Kodan Caches in Lowland Shore and Janthir Syntri Modified from Lady Elyssa's Pack
 
-### Planned Trails:
+### In the works:
 - HoT Mastery Points
 - Small boxes in SotO
 - All Static Rich nodes
 - Improving Lady Elyssa's Bjora Marches Eternal Ice Route
 
+***
+### Latest Pack Download Link: [ShadowPack.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowPack.taco)
+***
 <details>
 <summary>Test Summary</summary>
 
@@ -24,3 +23,6 @@ A collection of Markers and Trails made by Blackshadow_1007.
 Test Stuff
 
 </details>
+
+> [!NOTE]
+> Test Note.
