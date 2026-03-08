@@ -2,9 +2,10 @@
 
 ## Top Priority
 Kodan Cache Routes:  
-- Copy Waypoint to clipboard markers at end of trails  
+- Copy Waypoint to clipboard markers at end of trails (only lowland)  
 - Trail numbers  
 - add Missing cache markers  
+- finish sign (only lowland)  
 
 ## Other Stuff:
 - HoT Mastery Points
