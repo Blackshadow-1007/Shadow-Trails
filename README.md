@@ -16,6 +16,16 @@ A collection of Markers and Trails made by Blackshadow_1007.
 ***
 ### Latest Pack Download Link: [ShadowPack.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowPack.taco)
 ***
+
+### Where to put the file:
+
+- Open Blish Hud 
+- Navigate to the Pathing Module.
+- Press the Cog
+- Put it in the Folder that opens
+. 
+![alt text](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Where%20to%20put%20file.png)
+
 <details>
 <summary>Test Summary</summary>
 
