@@ -5,9 +5,10 @@ A collection of Markers and Trails made by Blackshadow_1007.
 - Bava Nisos Event Farm
 - Tomb of Primeval Kings Altpark
 - Mistburned Barrens Mursaat Caches
-- Major Kodan Caches in Lowland Shore and Janthir Syntri Modified from Lady Elyssa's Pack
+- Major Kodan Caches in Lowland Shore and Janthir Syntri  
+based on the trails from Lady Elyssa's Pack
 
-### In the works:
+### Planned for the Future:
 - HoT Mastery Points
 - Small boxes in SotO
 - All Static Rich nodes
