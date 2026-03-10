@@ -1,10 +1,10 @@
 # To-Do List
 
-## Top Priority
+## Currently Working on:
 
-Currently taking a break
+Nothing
 
-## Other Stuff:
+## Planned for later:
 - HoT Mastery Points
 - Small boxes in SotO
 - All Static Rich nodes
