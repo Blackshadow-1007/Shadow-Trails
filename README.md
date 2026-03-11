@@ -6,13 +6,13 @@ A collection of Markers and Trails made by Blackshadow_1007.
 - Tomb of Primeval Kings Altpark
 - Mistburned Barrens Mursaat Caches
 - Major Kodan Caches in Lowland Shore and Janthir Syntri  
-based on the trails from Lady Elyssa's Pack
+based on and modified from Lady Elyssa's Pack
 
 ### Planned for the Future:
 - HoT Mastery Points
 - Small boxes in SotO
 - All Static Rich nodes
-- Improving Lady Elyssa's Bjora Marches Eternal Ice Route
+- Improving Bjora Marches Eternal Ice Route
 
 ***
 ### Latest Pack Download Link: [ShadowPack.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowPack.taco)
@@ -22,18 +22,12 @@ based on the trails from Lady Elyssa's Pack
 
 - Open Blish Hud 
 - Navigate to the Pathing Module.
-- Press the Cog
+- Press the Cog in the top right
 - Put it in the Folder that opens
 . 
 ![alt text](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Where%20to%20put%20file.png)
 
-<details>
-<summary>Test Summary</summary>
+### 🤝 Acknowledgments / Credits
 
-### Test Header
-Test Stuff
-
-</details>
-
-> [!NOTE]
-> Test Note.
+* **Snow Crows:** for creating the **Bava Nisos Event Farm** route.
+* **Lady Elyssa:** for the base trails used for the **Major Kodan Caches**.
