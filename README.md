@@ -1,6 +1,8 @@
 # Shadow-Trails
 A collection of Markers and Trails made by Blackshadow_1007.
 
+> [!NOTE]
+> Some Trails may not work as intended without the Skyscale unlocked.
 ### Currently contains trails for:
 - Bava Nisos Event Farm
 - Tomb of Primeval Kings Altpark
