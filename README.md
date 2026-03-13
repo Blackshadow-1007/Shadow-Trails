@@ -3,6 +3,7 @@ A collection of Markers and Trails made by Blackshadow_1007.
 
 > [!NOTE]
 > Some Trails may not work as intended without the Skyscale unlocked.
+
 ### Currently contains trails for:
 - Bava Nisos Event Farm
 - Tomb of Primeval Kings Altpark
@@ -17,7 +18,7 @@ based on and modified from Lady Elyssa's Pack
 - Improving Bjora Marches Eternal Ice Route
 
 ***
-### Latest Pack Download Link: [ShadowPack.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowPack.taco)
+### Latest Pack Download Link: [ShadowTrails.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowTrails.taco)
 ***
 
 ### Where to put the file:
@@ -31,5 +32,6 @@ based on and modified from Lady Elyssa's Pack
 
 ### 🤝 Acknowledgments / Credits
 
+* **Cruelfairy:** for inspiring me to make this pack.
 * **Snow Crows:** for creating the **Bava Nisos Event Farm** route.
 * **Lady Elyssa:** for the base trails used for the **Major Kodan Caches**.
