@@ -2,7 +2,7 @@
 A collection of Markers and Trails made by Blackshadow_1007.
 
 > [!NOTE]
-> Some Trails may not work as intended without the Skyscale unlocked.
+> Some trails may not function as intended without the Skyscale unlocked.
 
 ### Currently contains trails for:
 - Bava Nisos Event Farm
@@ -17,20 +17,22 @@ based on and modified from Lady Elyssa's Pack
 - All Static Rich nodes
 - Improving Bjora Marches Eternal Ice Route
 
-***
-### Latest Pack Download Link: [ShadowTrails.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowTrails.taco)
-***
+---
 
-### Where to put the file:
+### 📦 Latest Pack Download Link: [ShadowTrails.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowTrails.taco)
 
-- Open Blish Hud 
-- Navigate to the Pathing Module.
-- Press the Cog in the top right
-- Put it in the Folder that opens
-. 
-![alt text](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Where%20to%20put%20file.png)
-
-### 🤝 Acknowledgments / Credits
+---
+ 
+### 🛠️ Installation
+ 
+1. **Download** the `.taco` file using the link above.
+2. **Open Blish HUD** and navigate to the **Pathing Module**.
+3. Click the **⚙️ cog** in the top right of the module.
+4. **Place the `.taco` file** into the folder that opens.
+ 
+![Installation guide](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Where%20to%20put%20file.png)
+ 
+## 🤝 Acknowledgments / Credits
 
 * **Cruelfairy:** for inspiring me to make this pack.
 * **Snow Crows:** for creating the **Bava Nisos Event Farm** route.
