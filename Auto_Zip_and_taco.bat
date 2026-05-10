@@ -1,6 +1,3 @@
-:: You must replace YOUR PACKS NAME and YOUR XMLS NAME in order to use
-:: ex: del ".\TehsTrails.taco"
-
 :: deletes existing pack
 del ".\ShadowTrails.taco"
 
