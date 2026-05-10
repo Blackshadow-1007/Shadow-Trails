@@ -30,7 +30,7 @@ based on and modified from Lady Elyssa's Pack
 3. Click the **⚙️ cog** in the top right of the module.
 4. **Place the `.taco` file** into the folder that opens.
  
-![Installation guide](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Where%20to%20put%20file.png)
+![Installation guide](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Stuff/Where%20to%20put%20file.png)
  
 ## 🤝 Acknowledgments / Credits
 
