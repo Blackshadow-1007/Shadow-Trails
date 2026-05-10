@@ -1,0 +1,252 @@
+
+<!--Comment-->
+
+<OverlayData>
+
+	<MarkerCategory name="st" displayName="Shadow Trails">
+		
+		<MarkerCategory name="bvnf" displayName="Bava Nisos Farm" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="bvnm" displayName="Event Markers" iconFile="Data/ShadowData/Markers/ExampleMarker.png"/>
+			<MarkerCategory name="bvnt" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="altpark" displayName="Alt Park" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="altm" displayName="Chests" iconFile="Data/ShadowData/Markers/chest2.png" iconsize="0.6"/>
+			<MarkerCategory name="altt" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="mscbar" displayName="Mistbarren Mursaat Caches" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="mscbart" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="mscbarm" displayName="Caches" iconFile="Data/ShadowData/Markers/chest2.png" iconsize="0.6"/>
+			<MarkerCategory name="mscbarmirror" displayName="Mirrors" iconFile="Data/ShadowData/Markers/trail_portal.png"/>
+			<MarkerCategory name="mscbar1" displayName="Trail Number 1" iconFile="Data\ShadowData\Markers\number1.png" iconsize="0.6"/>
+			<MarkerCategory name="mscbar2" displayName="Trail Number 2" iconFile="Data\ShadowData\Markers\number2.png" iconsize="0.6"/>
+			<MarkerCategory name="mscbarwp" displayName="Back to Waypoint Sign" triggerRange="8" autoTrigger="1" copy="[&BFAPAAA=]" copy-message="Alliance Staging Ground Waypoint copied!" iconFile="Data\ShadowData\Markers\map_waypoint.png"/>
+			<MarkerCategory name="mscbarfinish" displayName="Finish Sign" iconFile="Data/ShadowData/Markers/trail_finish.png" iconsize="3"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="jwkodancache" displayName="Major + Mythic Kodan Caches" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="lowlcachet" displayName="Lowland Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="syntcachet" displayName="Syntri Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="majorcache" displayName="Major Caches" iconFile="Data/ShadowData/Markers/cachekey.png" iconsize="0.6"/>
+			<MarkerCategory name="mythiccache" displayName="Mythical Caches" iconFile="Data/ShadowData/Markers/mythical.png" iconsize="0.6"/>
+			<MarkerCategory name="jwcachewp" displayName="Tp to ??? Waypoint" isHidden="1" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0" triggerRange="5" autoTrigger="1"/>
+			<MarkerCategory name="jwcachpath1" displayName="Trail Number 1" iconFile="Data\ShadowData\Markers\number1.png" isHidden="1" iconsize="0.6"/>
+			<MarkerCategory name="jwcachpath2" displayName="Trail Number 2" iconFile="Data\ShadowData\Markers\number2.png" isHidden="1" iconsize="0.6"/>
+			<MarkerCategory name="jwcachpath3" displayName="Trail Number 3" iconFile="Data\ShadowData\Markers\number3.png" isHidden="1" iconsize="0.6"/>
+			<MarkerCategory name="jwcachpath4" displayName="Trail Number 4" iconFile="Data\ShadowData\Markers\number4.png" isHidden="1" iconsize="0.6"/>
+			<MarkerCategory name="jwcachpath5" displayName="Trail Number 5" iconFile="Data\ShadowData\Markers\number5.png" isHidden="1" iconsize="0.6"/>
+			<MarkerCategory name="jwcachefinish" displayName="Finish Sign" iconFile="Data/ShadowData/Markers/trail_finish.png" isHidden="1" iconsize="3"/>
+		</MarkerCategory>
+		
+	</MarkerCategory>
+	
+	<POIs>
+		<!--
+			Bava Nisos Event Farm Route
+		-->
+		<Trail type="st.bvnf.bvnt" trailData="Data/ShadowData/Trails/BavaNisosFarm.trl"/>
+		<POI MapID="1574" xpos="201.8993" ypos="152.6593" zpos="-178.4387" GUID="HkicB4Bo4U2H9bC+Xy4CpQ==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="169.9239" ypos="163.1986" zpos="136.5948" GUID="b/H/ehohjEeEnxXR1bdblw==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="293.8547" ypos="237.2843" zpos="378.6657" GUID="DA23pE5w90aOOjMLwYzzZA==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="191.8867" ypos="238.8747" zpos="337.8133" GUID="QTRpixDqC0ii3xHShZchNg==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="25.3276" ypos="142.9066" zpos="330.3569" GUID="TJA9fCZ920mYKMBr00b3KA==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="-98.53162" ypos="163.573" zpos="250.8213" GUID="JmuHDdTgcUSoRJ2mt2JBxw==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="-187.4996" ypos="61.61856" zpos="-301.0061" GUID="et5CCQCuCUCRqJEMZ50RSA==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="-16.3082" ypos="61.61024" zpos="-414.1599" GUID="Ccl3GqeyUUKI2GRq7pVCUQ==" type="st.bvnf.bvnm" />
+		<POI MapID="1574" xpos="345.5695" ypos="108.6491" zpos="-495.5862" GUID="sv8BhAJuzkSxCgUqFYfbFw==" type="st.bvnf.bvnm" />
+		<!--
+			Tomb of Primeval Kings Alt Park Route
+		-->
+		<Trail type="st.altpark.altt" trailData="Data/ShadowData/Trails/AltPark_PrimevalKings.trl"/>
+		<POI MapID="1211" xpos="1264.907" ypos="230.9359" zpos="478.0218" GUID="97IiLi97qUCh4AT+7hQGWQ==" type="st.altpark.altm" />
+		<POI MapID="1211" xpos="1244.806" ypos="184.1407" zpos="478.5884" GUID="ic5ynOhpeUySzqjuJcbSdQ==" type="st.altpark.altm" />
+		<POI MapID="1211" xpos="1286.611" ypos="181.3848" zpos="439.9493" GUID="oT4JLqbqjEmevD4oAC/g5w==" type="st.altpark.altm" />
+		<POI MapID="1211" xpos="1319.791" ypos="184.0274" zpos="370.6377" GUID="Ulx9JRgwNUeztUOxjm/rNA==" type="st.altpark.altm" />
+		<POI MapID="1211" xpos="1342.052" ypos="160.3974" zpos="476.2965" GUID="T1t9XTBKo06Kyv53DTYHVw==" type="st.altpark.altm" />
+		<POI MapID="1211" xpos="1431.591" ypos="162.114" zpos="511.8717" GUID="79K8YMIus02GqC6yNASAPw==" type="st.altpark.altm" />
+		<POI MapID="1211" xpos="1431.562" ypos="164.5669" zpos="570.0445" GUID="WmbZi0Fg/EikuKatNPmqjg==" type="st.altpark.altm" />
+		<!-- 
+			Mistburned Barrens Mursaat Cache Farm
+		-->
+		<Trail type="st.mscbar.mscbart" trailData="Data\ShadowData\Trails\MistbarrenMursaatCacheRoute.trl"/>
+		<POI MapID="1575" xpos="-1023.981" ypos="126.4099" zpos="0.48291" GUID="a6lrseOy6Uadn2G4unWHYQ==" type="st.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-1004.328" ypos="46.26149" zpos="-356.1538" GUID="n5Y/FOR6C0CCkhc4KYQZpA==" type="st.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-619.6711" ypos="179.9551" zpos="202.3195" GUID="oqo6T3bqJU6WXDUoaYjW8w==" type="st.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-471.1672" ypos="89.41432" zpos="295.8081" GUID="PvSTIA5b0keVvN3EbLZLjg==" type="st.mscbar.mscbarmirror" />
+		<POI MapID="1575" xpos="-758.7634" ypos="126.4171" zpos="-7.250301" GUID="r3Kuioh/20WiLy8y2PeB8Q==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-760.9247" ypos="190.5145" zpos="-5.094451" GUID="Kwo9rSBigEehfmxqGr8mdg==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-889.2431" ypos="126.3836" zpos="-116.3623" GUID="zYQtwCqvaku6j4SadS/6Jg==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-951.7527" ypos="79.80846" zpos="-593.7037" GUID="Mx6FerBcZEGJNfZLw8Agsg==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-189.4252" ypos="265.039" zpos="-447.8873" GUID="pjbHBEs2rUiDzguncL6FvQ==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-210.3383" ypos="129.529" zpos="299.5574" GUID="Su43bW0W10i4VVgFTGL6+w==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-444.217" ypos="189.3964" zpos="350.1719" GUID="9COJ5FUrbkSKMkIoG7uKiw==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-537.5173" ypos="272.9452" zpos="-50.353" GUID="+hLyIpaNvkajPZO3dW2hFg==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-745.9445" ypos="224.0696" zpos="79.50372" GUID="Lh+mjeFK3kmTqwHLCCnNwg==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-844.7761" ypos="93.00911" zpos="-441.0854" GUID="jGSd6WnOjUmzHbAJxiewnw==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-1012.991" ypos="79.8717" zpos="-617.2629" GUID="HYIlJy8jd0KcQ4iPJsODKw==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-656.3797" ypos="175.6967" zpos="-319.6695" GUID="4W2DhwyZQUyoZlYII9F5mw==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-762.3097" ypos="174.6503" zpos="-79.2075" GUID="w2DFVmPfskSm0DdenzHOWw==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-757.7021" ypos="190.4682" zpos="112.5672" GUID="5VmudE7rx0OfDEFmsl3jsg==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-322.4998" ypos="235.2153" zpos="213.388" GUID="GEuwTbr2PkmUefXpUzHw8w==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-153.1427" ypos="198.4496" zpos="533.568" GUID="CRAi6+9UdEKZAWQMGDFRCw==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-562.1708" ypos="209.9375" zpos="-496.989" GUID="Gtjfdb4QJUKizTV5pHT45A==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-389.6748" ypos="178.7953" zpos="-437.7311" GUID="rcB+cDVTAU6W+GxdfC199g==" type="st.mscbar.mscbarm" />
+		<POI MapID="1575" xpos="-152.9505" ypos="201.5278" zpos="533.6035" GUID="seEBjMNhlkS19oR8trQy3g==" type="st.mscbar.mscbarwp" />
+		<POI MapID="1575" xpos="-1014.835" ypos="93.88617" zpos="36.59815" GUID="UsPTdw1ObUmDhjkW4nXaYg==" type="st.mscbar.mscbar1" />
+		<POI MapID="1575" xpos="-1021.744" ypos="93.88617" zpos="35.89517" GUID="A7RFfPX7NU6Zfv7QsUT3nA==" type="st.mscbar.mscbar2" />
+		<POI MapID="1575" xpos="-189.2569" ypos="267.8488" zpos="-447.923" GUID="L19N6Zqh0Uy8rNYjLBJ26w==" type="st.mscbar.mscbarfinish" />
+		<!-- 
+			Lowland Shore Major Kodan Cache route slightly changed from lady Elyssa's Pack
+		-->
+		<Trail type="st.jwkodancache.lowlcachet" trailData="Data\ShadowData\Trails\ModdedElyssaLowlandMajorKodanCache1+2+3+4+5.trl"/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="982.214" ypos="410.629" zpos="-92.7133" guid="axqsO3tkYEqfrrgNYYyhbg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-510.512" ypos="240.715" zpos="-485.735" guid="8QM9hkJBVk2QDrBl3ZUN4g=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="274.427" ypos="309.146" zpos="-186.881" guid="CxvtKD/Jok+8raFtd5yzLg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-258.9" ypos="61.5537" zpos="349.561" guid="u8/T3sAcrk2Aiofjg22YAQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-420.298" ypos="208.862" zpos="147.118" guid="TqQcx5tB/USQabEF45vhpA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="148.939" ypos="309.654" zpos="-251.047" guid="aPMI0bl4k0KeAOvIIRHvkw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-236.283" ypos="169.479" zpos="-132.347" guid="5t5s1e4mAkmSL3HtGjyj+A=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="165.988" ypos="385.579" zpos="-577.364" guid="9kRMxfY190+UallFHRet6g=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="680.669" ypos="302.141" zpos="-257.746" guid="h07U8V20DUaWDFYljqOHdQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="159.507" ypos="310.15" zpos="-31.5892" guid="T2WWc51GQUem0YkfVCcccg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-287.675" ypos="187.042" zpos="389.665" guid="+8eA/DY4PkOJH6c7dWiAZQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="274.363" ypos="96.1296" zpos="405.912" guid="iirBcu96Gka7H5knE0HlSA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="94.4692" ypos="150.531" zpos="332.197" guid="gXpuGZJZ70CxsQwoZdAgjA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-204.53" ypos="336.246" zpos="-569.694" guid="dM3X1fr4u0ODXXwrFAUaoQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-788.089" ypos="67.4789" zpos="173.026" guid="4yWcp6noUke/aI8mpo99IQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-498.445" ypos="219.603" zpos="-172.055" guid="KzccDTgStkWi8nQH5gHl0g=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-132.816" ypos="253.476" zpos="-82.3327" guid="PyUYBH/1GUaY90nbkwllVQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="993.27" ypos="360.755" zpos="296.027" guid="3ObbzdXFfk6TvvAD7QFZBA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="73.9324" ypos="154.396" zpos="185.874" guid="R+8Ka0EQREyddSxWkQWxWA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-652.563" ypos="25.8477" zpos="99.4815" guid="XlRmW3KkgE2aVGeRVP5D2A=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-653.19" ypos="334.758" zpos="-561.605" guid="BXPp8cUENE2JyTeEx7XYYA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-244.909" ypos="187.192" zpos="-250.172" guid="nRcZlVcJ6EKwpHsFmqaCLw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="667.112" ypos="332.971" zpos="24.9644" guid="y40JKn5k+E6Usx5iiyO0Gw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="1036.19" ypos="390.832" zpos="-267.041" guid="nAtaldlgf0m5SxlzCg6qJQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-133.782" ypos="311.147" zpos="-383.719" guid="Lkox0BPAMEO8OtzeANgQog=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-302.571" ypos="48.2384" zpos="469.999" guid="UIkxu4JbaUKZxQHKoLSjzw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-342.906" ypos="100.738" zpos="-34.8396" guid="VXGHAYxp4UmYHgFzacq4Og=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="887.056" ypos="416.375" zpos="-587.101" guid="zolYcEdXrE+Vdj9oUDQcqA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="573.491" ypos="5.43466" zpos="488.906" guid="7nC2scA7e0mHpGNQ/5y8VA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-940.657" ypos="314.14" zpos="-210.474" guid="JktHj82rA0Oyi9VWAtyEkw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-734.45" ypos="27.7304" zpos="470.11" guid="V/byw8sfVUGCkLWXVOPoQQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="495.774" ypos="146.395" zpos="361.084" guid="/XhNB8EEo0q2gLhKhw/RgA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-307.738" ypos="138.614" zpos="219.454" guid="r5xglhhrU0u7zmp+NzuwEg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="549.786" ypos="78.6371" zpos="439.895" guid="t/oZq7iab0WZH0QkpfsSkQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="758.75" ypos="299.505" zpos="192.074" guid="tPDVrU1gx0uNDkkmx1rbNQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="-213.554" ypos="151.209" zpos="-265.692" guid="ARwEK4jyKU6CGKO5PENqGw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="874.516" ypos="273.428" zpos="279.546" guid="NCtQnQhpqUKIyH4UeHiWjQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="35.5212" ypos="19.6952" zpos="390.3" guid="jdWLHZGr3EOhytl20/3OGA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1550" xpos="547.236" ypos="132.02" zpos="237.427" guid="i6Kyd82DgEqkzHPEzHRQhw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-235.422" ypos="90.2182" zpos="273.778" guid="/f3G884VBkOl8uUUStj92A=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="355.727" ypos="335.462" zpos="-563.132" guid="VvKN1OZk3E+cRvl7B1Eqmw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-133.639" ypos="149.782" zpos="-257.495" guid="nlmZ7DvZ0EmlSET/11JPhQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="153.53" ypos="303.404" zpos="-95.2715" guid="Sxhau6t9w0GwpGvF/YAJUw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-849.023" ypos="269.47" zpos="-353.685" guid="ytd53wIU/EmEHmJ4dYXvlQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="83.7286" ypos="218.447" zpos="328.094" guid="VwIoOtHXFU+RTTHk9r+9pQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="277.403" ypos="316.266" zpos="-513.058" guid="UZWieAahUkSjbdZadyK77Q=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-981.906" ypos="200.205" zpos="21.0359" guid="zW1itmCe6UW+Rwtg4RAJFQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="742.774" ypos="359.976" zpos="-557.64" guid="jtk8A+jiHEWOPBgDpGko2A=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="715.555" ypos="296.793" zpos="-355.587" guid="96V0RQP4B0eZam257thPhA=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-861.973" ypos="210.148" zpos="29.9356" guid="4x2iW+UGE0ueIe+XChQbUw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-10.5328" ypos="218.206" zpos="-162.194" guid="/StwkybhNUqwOBwFDLD4Xw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-367.127" ypos="197.282" zpos="193.325" guid="kBJjVjEOy0CtMHs7PTH19g=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="25.5274" ypos="302.838" zpos="-543.453" guid="nL1Q25R/b0ypCYut0HsjkQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-728.22" ypos="213.412" zpos="-151.775" guid="UAVso5ckykyYVx2mmZxmfQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-5.77259" ypos="149.34" zpos="305.712" guid="1/TgHfvjn06PHd9XsnB4Dw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-993.704" ypos="205.871" zpos="-34.0706" guid="IIhAfr4/6EWqdkntYCI6EA=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-963.43" ypos="248.981" zpos="-318.531" guid="abOEvjPsSk2QMRLiwuXP2g=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-637.075" ypos="202.551" zpos="-88.9521" guid="5GWH9ngP0UCJBpX5EwknVQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-645.271" ypos="211.127" zpos="-259.482" guid="BrfxIpkVeEG74uJGmfnF6A=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-1056" ypos="208.254" zpos="-109.09" guid="FzYOPlLPk0+kQ3V1MHGZ4Q=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-830.585" ypos="206.602" zpos="45.999" guid="tX0+yRsqfkuJZjNhyE2eew=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-879.597" ypos="260.829" zpos="-266.221" guid="9EK/V1AtN0e+rDS2TL13Ow=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1550" xpos="-927.245" ypos="209.415" zpos="55.2075" guid="ywIbHpAqHkCRz7cqWd8cHA=="/>
+		<POI MapID="1550" xpos="812.6048" ypos="324.9324" zpos="-413.9981" GUID="28xpD0g1xkCGUfV7GV95aw==" type="st.jwkodancache.mythiccache" />
+		<POI MapID="1550" xpos="697.7723" ypos="321.5282" zpos="-439.4949" GUID="dlpkWXwDpUa1JGgyTPS28g==" type="st.jwkodancache.mythiccache" />
+		<POI MapID="1550" xpos="-761.0281" ypos="213.4282" zpos="-131.0061" GUID="E7CDgZdP2k68tQZhW3q89A==" type="st.jwkodancache.mythiccache" />
+		<POI MapID="1550" xpos="278.3008" ypos="96.27395" zpos="407.2679" GUID="ZcyLmQDQs0S4WBl/jk/Lzw==" type="st.jwkodancache.jwcachewp" copy="[&amp;BN8OAAA=]" copy-message="Harvest Shore Waypoint Copied" />
+		<POI MapID="1550" xpos="571.3309" ypos="5.316868" zpos="490.88" GUID="AbQtLagk50SaL0fJCo3GsA==" type="st.jwkodancache.jwcachewp" copy="[&amp;BMkOAAA=]" copy-message="Hot Springs Waypoint Copied" />
+		<POI MapID="1550" xpos="-301.5983" ypos="48.15273" zpos="470.836" GUID="UaBT8JPBkk+RAZnxtFMfiw==" type="st.jwkodancache.jwcachewp" copy="[&amp;BMkOAAA=]" copy-message="Hot Springs Waypoint Copied" />
+		<POI MapID="1550" xpos="35.39394" ypos="19.72066" zpos="389.6283" GUID="rKHQhLtmh06iJ6FAbdadIA==" type="st.jwkodancache.jwcachewp" copy="[&amp;BPsOAAA=]" copy-message="Journeykin Outpost Waypoint Copied" />
+		<POI MapID="1550" xpos="559.8469" ypos="423.099" zpos="-557.8323" GUID="R7OYwmazNkCXq/sZhO0AgQ==" type="st.jwkodancache.jwcachpath1" />
+		<POI MapID="1550" xpos="692.9984" ypos="1.990401" zpos="568.5303" GUID="pjKs8tXpPkaQ6nZOcBL0zQ==" type="st.jwkodancache.jwcachpath2" />
+		<POI MapID="1550" xpos="-349.3506" ypos="213.3679" zpos="-491.5657" GUID="JkDuZj9LGUuKRJJaiRg4BQ==" type="st.jwkodancache.jwcachpath3" />
+		<POI MapID="1550" xpos="-337.9891" ypos="214.0845" zpos="-478.3843" GUID="xweX/MsGLU60wdzJlHNymA==" type="st.jwkodancache.jwcachpath4" />
+		<POI MapID="1550" xpos="-714.0214" ypos="210.2489" zpos="-56.9734" GUID="FN+wb29pzkKCW/09R6JjxA==" type="st.jwkodancache.jwcachpath5" />
+		<POI MapID="1550" xpos="-734.0522" ypos="30.6534" zpos="470.7703" GUID="gKYESwB0lUGZEbqS5UE+7Q==" type="st.jwkodancache.jwcachefinish" />
+		<!--
+			Jantir Syntri Major Kodan Cache route slightly changed from lady Elyssa's Pack
+		-->
+		<Trail type="st.jwkodancache.syntcachet" trailData="Data\ShadowData\Trails\ModdedElyssaSyntriMajorKodanCache1+2+3+4.trl"/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-130.196" ypos="80.8668" zpos="142.352" guid="sOD4tswww0a8xg/9tvlYJw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="481.886" ypos="15.4006" zpos="-143.681" guid="F6zOkAENjEiVjxsoPpBK1w=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="493.171" ypos="36.4782" zpos="-241.797" guid="vviak2OX6UuQn0Hc21QQuA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="585.442" ypos="77.1517" zpos="-808.043" guid="YFMgjuxpQUSj9mpHBe78CQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="640.25" ypos="2.00018" zpos="-114.175" guid="T0Zg9QIweUm5J+vGeI/RBQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="653.137" ypos="5.07692" zpos="89.6065" guid="8AMdKbJgkUO3LIVBK4hPSQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="233.385" ypos="58.1129" zpos="66.8321" guid="MO/OBhX/9EC+iytsOC4YtA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="233.56" ypos="29.9289" zpos="-601.418" guid="6UYeBfAXW06ANy6edOmxAA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="531.858" ypos="48.812" zpos="487.946" guid="Yuidyg2IbkKAKuJE23UHHg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-21.5349" ypos="65.0512" zpos="-341.538" guid="GBanRn+SRUesECU586nxWg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-394.538" ypos="142.418" zpos="303.732" guid="P3j3oH+MoU2b5LVlVLSRjw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="233.397" ypos="58.1105" zpos="66.7439" guid="/xoPqdASg0iPcyA/rlDMjA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="531.894" ypos="48.8385" zpos="487.721" guid="xN3u4T0vcEO+F85JkXiMKg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-354.15" ypos="30.6517" zpos="-10.595" guid="L7UFn41ks0KA06QKN2vMnQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="446.38" ypos="28.3657" zpos="199.785" guid="RgCASokmKU6JkfVJWfA0fw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="637.375" ypos="6.69803" zpos="38.6882" guid="viqWqLEXwUClrPntO75GEw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-309.833" ypos="50.3185" zpos="575.558" guid="wckAsgGBWEqKbpJY9Lpvlw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="330.013" ypos="25.4347" zpos="-253.134" guid="Ow+rFssDHUCnAv5WN7cx1Q=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-502.234" ypos="48.0829" zpos="-445.997" guid="MzOhG/Jh/kq1TO1jzIE9fQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="75.8306" ypos="74.8268" zpos="-734.241" guid="B9VUaVM+UEevUGLRtiGtiA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="738.87" ypos="0.183358" zpos="-252.098" guid="yfJYH+y5R0C1rCzB9vy4Hw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="873.835" ypos="104.413" zpos="-800.712" guid="ONqbJcClekG3eWvXcTkvoQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-39.3919" ypos="85.3272" zpos="778.363" guid="OFQvEruno027UBpNTdW50w=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-249.396" ypos="158.547" zpos="118.999" guid="219oTu9OnkOKYamjM1f21A=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-343.693" ypos="58.8717" zpos="-770.413" guid="E04qHGoT80KNNez5pP5luw=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-345.115" ypos="181.956" zpos="226.401" guid="zEGccwzG2E27BG9wP7qJOg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-778.091" ypos="93.4286" zpos="25.1453" guid="iN6fIBO1YkaufkGf6Nx7cA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-44.7551" ypos="30.1914" zpos="-19.074" guid="ruceRiCW6kaZ118wSKp4kg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="607.884" ypos="23.0724" zpos="-245.857" guid="ALLPkJXvC0iVE9tBdxrdIQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="781.607" ypos="42.6569" zpos="-606.003" guid="TvsFNOrQ30u+25n62y8y1g=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="421.516" ypos="1.02395" zpos="414.624" guid="0iqNg51RrU2SxGPhyhnLng=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="929.005" ypos="7.74813" zpos="-440.748" guid="g30YaenaAkCe4HdvQRjf/A=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-76.8515" ypos="90.8623" zpos="-516.831" guid="/wGGgMWXrkGQI9pT26j53g=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-266.672" ypos="51.2006" zpos="-323.242" guid="i4pqivA+FEu8R5viVKdvLQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="510.246" ypos="15.7164" zpos="506.984" guid="wxAftoFFykSCV5XHAMMMeg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="385.425" ypos="26.5859" zpos="447.605" guid="zqkyMDWHE0OhGp+yCj/ryQ=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="98.7106" ypos="0.671561" zpos="-38.4531" guid="a2ine51A3EKiV5OHAkBgww=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="706.564" ypos="0.174599" zpos="-140.335" guid="lj8K+dVfDkiSxcylZbrHEA=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="705.622" ypos="3.52502" zpos="392.525" guid="nBptJtGM4k+zKaA3i8N1Pg=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="-99.6413" ypos="27.1144" zpos="-394.39" guid="UUHVCr4dt0SU/Zq+eWP81Q=="/>
+		<poi type="st.jwkodancache.majorcache" mapid="1554" xpos="23.0514" ypos="50.372" zpos="-393.883" guid="Za2iefFFB0CsGmdK1J5lUg=="/>
+		<POI type="st.jwkodancache.majorcache" MapID="1554" xpos="-239.2559" ypos="116.7617" zpos="796.6169" GUID="zg/mBzh5EESXaj/xIiFI5w==" />
+		<POI type="st.jwkodancache.majorcache" MapID="1554" xpos="-753.4289" ypos="86.80818" zpos="-555.0693" GUID="SHOO0cva20yEnJm2et+kww==" />
+		<POI type="st.jwkodancache.majorcache" MapID="1554" xpos="-105.6896" ypos="82.8566" zpos="-811.6403" GUID="2eb03O0Zv02AbnXFwilLoQ==" />
+		<POI type="st.jwkodancache.majorcache" MapID="1554" xpos="-367.661" ypos="29.17817" zpos="-151.6242" GUID="m1P7T9TG4k6Xyu97hrBYrg==" />
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="548.525" ypos="4.43051" zpos="241.756" guid="IOI0cCIGakaBi61KG23Kow=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="500.587" ypos="14.7111" zpos="184.255" guid="suqIDiKYr0OkAzBspIKTsw=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="299.159" ypos="9.00461" zpos="-12.3436" guid="AdZrL4zv1024WbcSvymyYA=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="575.945" ypos="4.23285" zpos="128.076" guid="oPAOwdhxXESYxVbX/s0A1A=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="514.89" ypos="1.49636" zpos="436.901" guid="kSmSKIVTPkW7J5ECfFIx/g=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="272.515" ypos="2.11341" zpos="189.582" guid="quGw23D2+Uiid3Q3daNe/Q=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="446.257" ypos="0.345315" zpos="476.05" guid="YxBvHvLlFE+qTZJo5mDXSg=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="410.673" ypos="18.9259" zpos="215.477" guid="6a8MnNMYzUqQ6zvxl1S/Kg=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="304.677" ypos="13.1747" zpos="151.965" guid="C8lX0rktdkWYtL0Q25WVhQ=="/>
+		<poi type="st.jwkodancache.mythiccache" mapid="1554" xpos="451.982" ypos="23.2274" zpos="244.197" guid="gqIO0w4b20Cu2L6JiEwYGw=="/>
+		<POI type="st.jwkodancache.mythiccache" MapID="1554" xpos="463.0143" ypos="2.703186" zpos="132.8994" GUID="dy5IokSigEa94x3gDQuefw==" />
+		<POI type="st.jwkodancache.mythiccache" MapID="1554" xpos="414.0561" ypos="1.428339" zpos="86.84424" GUID="zIrsgwg5wEqyDFkWYpNlqA==" />
+		<POI type="st.jwkodancache.mythiccache" MapID="1554" xpos="493.0934" ypos="3.362927" zpos="324.8571" GUID="brdKh0zVOUOAcFnaXd0JhQ==" />
+		<POI type="st.jwkodancache.mythiccache" MapID="1554" xpos="534.1768" ypos="1.821298" zpos="371.3918" GUID="GlhdXZNn4EGcgpv/HgBN1w==" />
+		<POI MapID="1554" xpos="-248.7894" ypos="158.5016" zpos="119.5547" GUID="rAfEKYKZIEOdxdGFIpqabQ==" type="st.jwkodancache.jwcachewp" copy="[&BCwPAAA=]" copy-message="Sanguine Crater Waypoint Copied" />
+		<POI MapID="1554" xpos="-776.7685" ypos="93.46101" zpos="26.07823" GUID="EYpRwnj9xEG1PPI10oGDkQ==" type="st.jwkodancache.jwcachewp" copy="[&BCwPAAA=]" copy-message="Sanguine Crater Waypoint Copied" />
+		<POI MapID="1554" xpos="585.4462" ypos="77.15096" zpos="-808.0543" GUID="H72ru24un0O2jIdafWaYyQ==" type="st.jwkodancache.jwcachewp" copy="[&BCoPAAA=]" copy-message="Stricken Plains Waypoint Copied"  />
+		<POI MapID="1554" xpos="614.8344" ypos="1.255713" zpos="-624.4865" GUID="cXdySgYxB0+MLwNwToIN9g==" type="st.jwkodancache.jwcachpath1" />
+		<POI MapID="1554" xpos="186.4862" ypos="2.621298" zpos="579.71" GUID="6tQCgL9+zUeYVGhmclGe8w==" type="st.jwkodancache.jwcachpath2" />
+		<POI MapID="1554" xpos="-359.8574" ypos="82.75266" zpos="48.43348" GUID="6g+w0Krw306OvcEIqboE5w==" type="st.jwkodancache.jwcachpath3" />
+		<POI MapID="1554" xpos="-359.2566" ypos="84.32382" zpos="66.71126" GUID="ZF3XFEc1EE2ENH66V4HXbQ==" type="st.jwkodancache.jwcachpath4" />
+		<POI MapID="1554" xpos="-236.2246" ypos="117.2397" zpos="795.3367" GUID="dI7QoRgN/kGflnrOfnl2NQ==" type="st.jwkodancache.jwcachefinish" />
+	</POIs>
+
+</OverlayData>
