@@ -1,7 +1,7 @@
 :: You must replace YOUR PACKS NAME and YOUR XMLS NAME in order to use
 :: ex: del ".\TehsTrails.taco"
 
-:: deletes existing pack
+:: deletes existing pack in folder above
 del "..\ShadowTrails.taco"
 
 :: uses WinRar to create a zip out of \Data and \YOUR XML
@@ -10,4 +10,5 @@ del "..\ShadowTrails.taco"
 :: renames the zip to taco
 rename "ShadowTrails.zip" "ShadowTrails.taco"
 
+:: moves it a folder above
 move "ShadowTrails.taco" "..\"
