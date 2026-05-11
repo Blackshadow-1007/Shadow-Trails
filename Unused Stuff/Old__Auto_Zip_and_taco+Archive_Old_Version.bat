@@ -4,16 +4,17 @@ setlocal enabledelayedexpansion
 
 move "ShadowTrails.taco" "%~dp0\Stuff\Old Versions\"
 
-:: Get datetime using PowerShell
-for /f %%a in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMddHHmm"') do set DT=%%a
+:: Get date
+for /f "tokens=2 delims==" %%a in ('wmic os get localdatetime /value') do set DT=%%a
 
+:: DT is now in format YYYYMMDDHHmmSS
 set YYYY=%DT:~0,4%
 set MM=%DT:~4,2%
 set DD=%DT:~6,2%
 set HH=%DT:~8,2%
 set MIN=%DT:~10,2%
 
-set TIMESTAMP=%DD%.%MM%.%YYYY%_%HH%;%MIN%
+set TIMESTAMP=%DD%-%MM%-%YYYY%_%HH%-%MIN%
 echo Timestamp: %TIMESTAMP%
 pause
 
