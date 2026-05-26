@@ -1,9 +1,9 @@
 # Shadow-Trails
-[![version](https://img.shields.io/github/v/release/Blackshadow-1007/Shadow-Trails)](https://github.com/Blackshadow-1007/Shadow-Trails/releases/latest)
-![Downloads](https://img.shields.io/github/downloads/Blackshadow-1007/Shadow-Trails/total)
+[![Version](https://img.shields.io/github/v/release/Blackshadow-1007/Shadow-Trails?label=latest%20release)](https://github.com/Blackshadow-1007/Shadow-Trails/releases/latest)
+![Downloads](https://img.shields.io/github/downloads/Blackshadow-1007/Shadow-Trails/total?label=total%20downloads)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Blackshadow-1007/Shadow-Trails)](https://github.com/Blackshadow-1007/Shadow-Trails/commits/main)
 [![last commit](https://img.shields.io/github/last-commit/Blackshadow-1007/Shadow-Trails)](https://github.com/Blackshadow-1007/Shadow-Trails/commits/main)
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/LICENSE.md)
 
 A collection of Markers and Trails made by Blackshadow_1007.
 
