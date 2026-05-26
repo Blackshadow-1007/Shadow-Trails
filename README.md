@@ -1,4 +1,10 @@
 # Shadow-Trails
+[![version](https://img.shields.io/github/v/release/Blackshadow-1007/Shadow-Trails)](https://github.com/Blackshadow-1007/Shadow-Trails/releases/latest)
+![Downloads](https://img.shields.io/github/downloads/Blackshadow-1007/Shadow-Trails/total)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Blackshadow-1007/Shadow-Trails)](https://github.com/Blackshadow-1007/Shadow-Trails/commits/main)
+[![last commit](https://img.shields.io/github/last-commit/Blackshadow-1007/Shadow-Trails)](https://github.com/Blackshadow-1007/Shadow-Trails/commits/main)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+
 A collection of Markers and Trails made by Blackshadow_1007.
 
 > [!NOTE]
@@ -18,19 +24,15 @@ based on and modified from Lady Elyssa's Pack
 - Improving Bjora Marches Eternal Ice Route
 
 ---
-
-### 📦 Latest Pack Download Link: [ShadowTrails.taco](https://github.com/Blackshadow-1007/Shadow-Trails/raw/main/ShadowTrails.taco)
-
----
  
-### 🛠️ Installation
+## 🛠️ Installation
  
-1. **Download** the `.taco` file using the link above.
+1. **Download** the `.taco` file from the [latest release](https://github.com/Blackshadow-1007/Shadow-Trails/releases/latest).
 2. **Open Blish HUD** and navigate to the **Pathing Module**.
-3. Click the **⚙️ cog** in the top right of the module.
-4. **Place the `.taco` file** into the folder that opens.
+3. Click the **⚙️ cog** in the top right of the module and open the Markers folder.
+4. **Place the `.taco` file** into the folder.
  
-![Installation guide](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Stuff/Where%20to%20put%20file.png)
+![Installation guide](https://github.com/Blackshadow-1007/Shadow-Trails/blob/main/Where%20to%20put%20file.png)
  
 ## 🤝 Acknowledgments / Credits
 
