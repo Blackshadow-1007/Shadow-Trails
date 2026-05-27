@@ -8,6 +8,12 @@
 
 A collection of Markers and Trails made by Blackshadow_1007.
 
+If you want to suggest new routes or talk about the project, you can join my Discord Server:
+
+[![](https://img.shields.io/discord/1478581838032142539?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/AyMC5zDq3k)
+
+---
+
 > [!NOTE]
 > Some trails may not function as intended without the Skyscale unlocked.
 
