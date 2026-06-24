@@ -7,16 +7,16 @@
 		
 		<MarkerCategory name="bvnf" displayName="Bava Nisos Farm" fadeNear="3000" fadeFar="3500">
 			<MarkerCategory name="bvnm" displayName="Event Markers" iconFile="Data/ShadowData/Markers/ExampleMarker.png"/>
-			<MarkerCategory name="bvnt" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="bvnt" displayName="Trail" texture="Data/ShadowData/Markers/aShadowTrail.png"/>
 		</MarkerCategory>
 		
 		<MarkerCategory name="altpark" displayName="Alt Park" fadeNear="3000" fadeFar="3500">
 			<MarkerCategory name="altm" displayName="Chests" iconFile="Data/ShadowData/Markers/chest2.png" iconsize="0.6"/>
-			<MarkerCategory name="altt" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="altt" displayName="Trail" texture="Data/ShadowData/Markers/aShadowTrail.png"/>
 		</MarkerCategory>
 		
 		<MarkerCategory name="mscbar" displayName="Mistbarren Mursaat Caches" fadeNear="3000" fadeFar="3500">
-			<MarkerCategory name="mscbart" displayName="Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="mscbart" displayName="Trail" texture="Data/ShadowData/Markers/aShadowTrail.png"/>
 			<MarkerCategory name="mscbarm" displayName="Caches" iconFile="Data/ShadowData/Markers/chest2.png" iconsize="0.6"/>
 			<MarkerCategory name="mscbarmirror" displayName="Mirrors" iconFile="Data/ShadowData/Markers/trail_portal.png"/>
 			<MarkerCategory name="mscbar1" displayName="Trail Number 1" iconFile="Data\ShadowData\Markers\number1.png" iconsize="0.6"/>
@@ -26,8 +26,8 @@
 		</MarkerCategory>
 		
 		<MarkerCategory name="jwkodancache" displayName="Major + Mythic Kodan Caches" fadeNear="3000" fadeFar="3500">
-			<MarkerCategory name="lowlcachet" displayName="Lowland Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
-			<MarkerCategory name="syntcachet" displayName="Syntri Trail" texture="Data/ShadowData/Markers/aMyTrail2.png"/>
+			<MarkerCategory name="lowlcachet" displayName="Lowland Trail" texture="Data/ShadowData/Markers/aShadowTrail.png"/>
+			<MarkerCategory name="syntcachet" displayName="Syntri Trail" texture="Data/ShadowData/Markers/aShadowTrail.png"/>
 			<MarkerCategory name="majorcache" displayName="Major Caches" iconFile="Data/ShadowData/Markers/cachekey.png" iconsize="0.6"/>
 			<MarkerCategory name="mythiccache" displayName="Mythical Caches" iconFile="Data/ShadowData/Markers/mythical.png" iconsize="0.6"/>
 			<MarkerCategory name="jwcachewp" displayName="Tp to ??? Waypoint" isHidden="1" miniMapVisibility="0" mapVisibility="0" inGameVisibility="0" triggerRange="5" autoTrigger="1"/>
