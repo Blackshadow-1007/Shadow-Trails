@@ -1,0 +1,25 @@
+<OverlayData>
+
+	<MarkerCategory name="mp" displayName="My Pack">
+		
+		<MarkerCategory name="m" displayName="Markers" fadeNear="3000" fadeFar="3500">
+			<MarkerCategory name="exm" displayName="Example Marker" iconFile="Data/Markers/ExampleMarker.png"/>
+			<MarkerCategory name="exm2" displayName="Example Marker 2" iconFile="Data/Markers/ExampleMarker2.png" fadeNear="3500" fadeFar="4000"/>
+		</MarkerCategory>
+		
+		<MarkerCategory name="t" displayName="Trails">
+			<MarkerCategory name="ext" displayName="Example Trail" texture="Data/Markers/Trail.png"/>
+			<MarkerCategory name="ext2" displayName="LA Example Trail" texture="Data/Markers/Trail.png"/>
+		</MarkerCategory>
+		
+	</MarkerCategory>
+	
+	<POIs>
+		<POI MapID="24" xpos="232.357" ypos="2.67108" zpos="-459.649" type="mp.m.exm2" GUID="cJ/ybo2xk0O3sa8W7QBlYQ=="/>
+		<POI MapID="24" xpos="229.859" ypos="2.74695" zpos="-465.586" type="mp.m.exm2" GUID="7ffVA0BZUEyyQUPU+pbzcg=="/>
+		<POI MapID="24" xpos="228.092" ypos="3.7002" zpos="-460.307" type="mp.m.exm" GUID="A0yonm/Sb0S+r3EZgrgD4g=="/>
+		<Trail type="mp.t.ext" trailData="Data/Trails/ExampleTrail.trl"/>
+		<Trail type="mp.t.ext2" trailData="Data/Trails/ExampleTrail2.trl"/>
+	</POIs>
+
+</OverlayData>
